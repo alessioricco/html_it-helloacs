@@ -1,0 +1,18 @@
+{
+    "routes": [ {
+        "path": "/",
+        "callback": "application#index"
+    }, {
+        "path": "/hello_htmlit",
+        "method": "get",
+        "callback": "services#hello_htmlit"
+    } ],
+    "filters": [ {
+        "path": "/",
+        "callback": ""
+    } ],
+    "websockets": [ {
+        "event": "",
+        "callback": ""
+    } ]
+}
